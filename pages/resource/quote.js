@@ -14,7 +14,7 @@ export const getStaticProps = async () => {
 const Quote = ({ quotes }) => {
   return (
     <>
-      <div className="text-center mt-5 mb-5">These are helpful quotes</div>
+      <div className="text-center mt-5">These are helpful quotes</div>
       <div className="text-center mt-1 mb-5">
         Click on a quote to get more info about it
       </div>
