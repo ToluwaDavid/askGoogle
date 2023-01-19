@@ -16,7 +16,9 @@ export default function Home() {
         <meta name="keywords" content="ask-google"></meta>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
       </Head>
-      <h4 className="text-center mt-5 text-decoration-underline">Welcome</h4>
+      <h4 className="text-center mt-5 text-decoration-underline">
+        Welcome, this page is build with NEXTJS
+      </h4>
       <figure class="text-center">
         <blockquote class="blockquote">
           <p>When in douth, ask Google.</p>
