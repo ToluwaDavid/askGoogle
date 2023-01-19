@@ -14,7 +14,10 @@ export const getStaticProps = async () => {
 const Quote = ({ quotes }) => {
   return (
     <>
-      <div className="text-center mt-5 mb-5">These are random quotes</div>
+      <div className="text-center mt-5 mb-5">These are helpful quotes</div>
+      <div className="text-center mt-1 mb-5">
+        Click on a quote to get more info about it
+      </div>
       {quotes.map((quo) => (
         <div className="card mx-auto p-4 m-2" style={{ width: "50%" }}>
           <ul class="list-group list-group-flush">
