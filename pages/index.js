@@ -17,7 +17,7 @@ export default function Home() {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
       </Head>
       <h4 className="text-center mt-5 text-decoration-underline">
-        Welcome, this page is build with NEXTJS
+        Welcome, this is built with NEXTJS
       </h4>
       <figure class="text-center">
         <blockquote class="blockquote">
